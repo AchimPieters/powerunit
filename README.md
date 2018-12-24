@@ -1,2 +1,2 @@
-# Power.Unit-
+# Power.Unit®
 Raspberry Pi® - Power.Unit®
