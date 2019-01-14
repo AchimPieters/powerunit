@@ -10,4 +10,19 @@ Login via SSH or via the console and run the following command and Power.unit<su
 
 ```curl -sSL https://raw.githubusercontent.com/AchimPieters/Power.Unit/master/install.sh | sudo bash```
 
-
+Power.Unit<sup>®</sup> Project - Initiation & Planning
+- [x] Project research
+Power.Unit<sup>®</sup> Project - Test phase
+- [x] Basic circuit on a breadboard
+- [x] Circuits and Prototyping
+Power.Unit<sup>®</sup> Project - Test Software
+- [x] Writing the software
+- [ ] testing the software
+Power.Unit<sup>®</sup> Project - PCB Design
+- [ ] Design the Scheme in KiCad
+- [ ] Design the PCB in KiCad
+- [ ] Place PCB Order
+Power.Unit<sup>®</sup> Project - Test PCB
+- [ ] Test Power.Unit<sup>®</sup> PCB
+- [ ] ...
+- [ ] ...
