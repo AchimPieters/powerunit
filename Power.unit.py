@@ -19,7 +19,7 @@ while (GPIO.input(PinEleven) == True): # While button not pressed
 
 
 if (GPIO.input(PinEleven) == True):
- GPIO.output(PinThirteent,GPIO.LOW) # Bring down PinThirteen so that the LED will turn off.
+ GPIO.output(PinThirteen,GPIO.LOW) # Bring down PinThirteen so that the LED will turn off.
  GPIO.cleanup() #  clean up any resources we have used.
  call('poweroff', shell=False) # Initiate OS Poweroff
 else:
