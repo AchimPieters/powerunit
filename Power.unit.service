@@ -1,0 +1,11 @@
+[Unit]
+Description=Starts Power.unit for Power.unit PCB
+Requires=local-fs.target
+
+[Service]
+Type=simple
+ExecStart=/opt/Power.unit/Power.unit.py
+WorkingDirectory=/opt/Power.unit/
+
+[Install]
+WantedBy=multi-user.target
