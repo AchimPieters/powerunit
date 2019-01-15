@@ -10,12 +10,12 @@ if [ ! $? = 0 ]; then
    exit 1
 else
 
-   systemctl stop Power.unit.service
-   systemctl disable /etc/systemd/Power.unit.service
+   systemctl stop Powerunit.service
+   systemctl disable /etc/systemd/Powerunit.service
 
-   rm /opt/Power.unit/Power.unit.py
-   rm /opt/Power.unit -d
-   rm /etc/systemd/system/Power.unit.service
+   rm /opt/Powerunit/Powerunit.py
+   rm /opt/Powerunit -d
+   rm /etc/systemd/system/Powerunit.service
 
    whiptail --title "Uninstall complete" --msgbox "Power.unit® Uninstallation complete. \nThe system will power off. \nCopyright 2019 StudioPieters®.\nYou are safe to remove the folder Power.unit." 8 78
 fi

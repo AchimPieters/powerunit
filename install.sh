@@ -23,7 +23,7 @@ else
 
    cp $PowerunitDir/powerunit.py /opt/Powerunit
    if [ ! -f /opt/Powerunit/Powerunit.py ]; then
-     whiptail --title "Installation aborted" --msgbox "There was a problem writing the Power.unit.py file" 8 78
+     whiptail --title "Installation aborted" --msgbox "There was a problem writing the Powerunit.py file" 8 78
     exit
    fi
    cp $PowerunitDir/Powerunit.service /etc/systemd/system
