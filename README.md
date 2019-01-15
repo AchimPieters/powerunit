@@ -9,6 +9,8 @@ Login via SSH or via the console and run the following command and Power.unit<su
 
 ```curl -sSL https://raw.githubusercontent.com/AchimPieters/Power.Unit/master/install.sh | sudo bash```
 
+```curl -sSL https://github.com/AchimPieters/Power.Unit.git/master/install.sh | sudo bash```
+
 #### Power.Unit<sup>®</sup> Project - Initiation & Planning
 - [x] Project research
 #### Power.Unit<sup>®</sup> Project - Prototyping
