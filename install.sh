@@ -11,7 +11,7 @@ if [ ! $? = 0 ]; then
 else
    apt-get install -y git whiptail # Installing whiptail to display dialog boxes from shell scripts.
 
-   PowerunitDir="Power.unit"
+   PowerunitDir="Powerunit"
    if [ -d "$PowerunitDir" ]; then
     whiptail --title "Installation aborted" --msgbox "$PowerunitDir already exists, please remove it and restart the installation" 8 78
     exit
@@ -19,20 +19,20 @@ else
     git clone https://github.com/AchimPieter/Power.unit.git
    fi
 
-   mkdir /opt/Power.unit
+   mkdir /opt/Powerunit
 
-   cp $PowerunitDir/power.unit.py /opt/Power.unit
-   if [ ! -f /opt/Power.unit/Power.unit.py ]; then
+   cp $PowerunitDir/powerunit.py /opt/Powerunit
+   if [ ! -f /opt/Powerunit/Powerunit.py ]; then
      whiptail --title "Installation aborted" --msgbox "There was a problem writing the Power.unit.py file" 8 78
     exit
    fi
-   cp $PowerunitDir/Power.unit.service /etc/systemd/system
-   if [ ! -f /etc/systemd/system/Power.unit.service ]; then
-    whiptail --title "Installation aborted" --msgbox "There was a problem writing the Power.unit.service file" 8 78
+   cp $PowerunitDir/Powerunit.service /etc/systemd/system
+   if [ ! -f /etc/systemd/system/Powerunit.service ]; then
+    whiptail --title "Installation aborted" --msgbox "There was a problem writing the Powerunit.service file" 8 78
     exit
    fi
 
-   systemctl enable /etc/systemd/system/Power.unit.service
+   systemctl enable /etc/systemd/system/Powerunit.service
    whiptail --title "Installation complete" --msgbox "Power.unit® installation complete. \nThe system will power off. \nCopyright 2019 StudioPieters®" 8 78
    poweroff
 fi
