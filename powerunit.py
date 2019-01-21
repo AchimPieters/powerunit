@@ -11,7 +11,7 @@ PinEleven = 11
 PinThirteen = 13
 GPIO.setmode(GPIO.BOARD) # Set pin numbering to board numbering.
 GPIO.setup(PinEleven, GPIO.IN) # Set up PinEleven as an input.
-GPIO.setup(PinThirteen, GPIO.OUT, GPIO.HIGH) # Setup PinThirteen as output for the LED.
+GPIO.setup(PinThirteen, GPIO.OUT, initial=1) # Setup PinThirteen as output for the LED.
 
 while (GPIO.input(PinEleven) == True): # While button not pressed
  GPIO.wait_for_edge(PinEleven, GPIO.RISING) # Wait for a rising edge on PinSeven
@@ -19,7 +19,7 @@ while (GPIO.input(PinEleven) == True): # While button not pressed
 
 
 if (GPIO.input(PinEleven) == True):
- GPIO.output(PinThirteen,GPIO.LOW) # Bring down PinThirteen so that the LED will turn off.
+ GPIO.output(PinThirteen,0) # Bring down PinThirteen so that the LED will turn off.
  GPIO.cleanup() #  clean up any resources we have used.
  call('poweroff', shell=False) # Initiate OS Poweroff
 else:
