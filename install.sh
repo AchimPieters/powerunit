@@ -11,18 +11,18 @@ if [ ! $? = 0 ]; then
 else
    apt-get install -y git whiptail # Installing whiptail to display dialog boxes from shell scripts.
 
-   PowerunitDir="Powerunit"
+   PowerunitDir="powerunit"
    if [ -d "$PowerunitDir" ]; then
     whiptail --title "Installation aborted" --msgbox "$PowerunitDir already exists, please remove it and restart the installation" 8 78
     exit
    else
-    git clone https://github.com/AchimPieter/Power.unit.git
+    git clone https://github.com/AchimPieter/powerunit.git
    fi
 
    mkdir /opt/Powerunit
 
-   cp $PowerunitDir/powerunit.py /opt/Powerunit
-   if [ ! -f /opt/Powerunit/Powerunit.py ]; then
+   cp $PowerunitDir/powerunit.py /opt/powerunit
+   if [ ! -f /opt/powerunit/powerunit.py ]; then
      whiptail --title "Installation aborted" --msgbox "There was a problem writing the Powerunit.py file" 8 78
     exit
    fi
