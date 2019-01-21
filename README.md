@@ -7,7 +7,9 @@ Raspberry Pi<sup>®</sup> - Power.unit<sup>®</sup>
 # Installation
 Login via SSH or via the console and run the following command and Power.unit<sup>®</sup> will be installed:
 
-```curl -sSL https://raw.githubusercontent.com/AchimPieters/Power.Unit/master/install.sh | sudo bash```
+```curl -sSL https://raw.githubusercontent.com/AchimPieters/PowerUnit/master/install.sh | sudo bash```
+
+
 
 
 #### Power.Unit<sup>®</sup> Project - Initiation & Planning
