@@ -16,7 +16,7 @@ else
     whiptail --title "Installation aborted" --msgbox "$powerunitDir already exists, please remove it and restart the installation" 8 78
     exit
    else
-    git clone https://github.com/AchimPieter/powerunit.git
+    git clone https://github.com/AchimPieters/powerunit.git
    fi
 
    mkdir /opt/powerunit
