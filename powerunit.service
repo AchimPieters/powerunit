@@ -4,8 +4,8 @@ Requires=local-fs.target
 
 [Service]
 Type=simple
-ExecStart=/opt/Powerunit/Powerunit.py
-WorkingDirectory=/opt/Powerunit/
+ExecStart=/opt/powerunit/powerunit.py
+WorkingDirectory=/opt/powerunit/
 
 [Install]
 WantedBy=multi-user.target
