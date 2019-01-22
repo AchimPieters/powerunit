@@ -18,5 +18,5 @@ else
    rm /etc/systemd/system/powerunit.service
    rm -rf powerunit
 
-   whiptail --title "Uninstall complete" --msgbox "Power.unit® Uninstallation complete. \nThe system will power off. \nCopyright 2019 StudioPieters®.\nYou are safe to remove the folder Power.unit." 8 78
+   whiptail --title "Uninstall complete" --msgbox "Power.unit® Uninstallation complete. The system will power off. \nCopyright 2019 StudioPieters®. You are safe to remove the folder Power.unit." 8 78
 fi
