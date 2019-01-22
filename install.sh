@@ -33,6 +33,6 @@ else
    fi
 
    systemctl enable /etc/systemd/system/powerunit.service
-   whiptail --title "Installation complete" --msgbox "Power.unit® installation complete. \nThe system will power off. \nCopyright 2019 StudioPieters®" 8 78
+   whiptail --title "Installation complete" --msgbox "Power.unit® installation complete. The system will power off. \nCopyright 2019 StudioPieters®" 8 78
    poweroff
 fi
