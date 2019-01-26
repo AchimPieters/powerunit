@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# Project name: Powerunit®
+# Project URI:  https://www.studiopieters.nl/raspberry-pi-power-unit
+# Description: Powerunit® - Raspberry Pi® Install Script
+# Version: 7.9.3
+# License: MIT - Copyright 2019 StudioPieters® (https://opensource.org/licenses/MIT)
+
 #Check if script is being run as root
 if [ "$(id -u)" != "0" ]; then
    echo "This script must be run as root" 1>&2
