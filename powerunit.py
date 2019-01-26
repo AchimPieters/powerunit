@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-
-
 # Import the modules to send commands to the system and access GPIO pins.
 from subprocess import call
 import RPi.GPIO as GPIO
