@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 
-# Project name: Powerunit®
-# Project URI:  https://www.studiopieters.nl/raspberry-pi-power-unit
-# Description: Powerunit® - Raspberry Pi® Python Script
-# Version: 7.10.0
-# License: MIT - Copyright 2019 StudioPieters® (https://opensource.org/licenses/MIT)
+
 
 # Import the modules to send commands to the system and access GPIO pins.
 from subprocess import call
