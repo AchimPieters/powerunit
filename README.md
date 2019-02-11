@@ -22,9 +22,9 @@ Login via SSH or via the console and run the following command and Powerunit<sup
 - [x] Testing the software
 - [ ] Optimizing the software
 #### Powerunit<sup>®</sup> Project - PCB Design
-- [ ] Design the Scheme in KiCad
-- [ ] Design the PCB in KiCad
-- [ ] Place PCB Order
+- [x] Design the Scheme in KiCad
+- [x] Design the PCB in KiCad
+- [x] Place PCB Order
 #### Powerunit<sup>®</sup> Project - Prototyping PCB
 - [ ] Test Powerunit<sup>®</sup> PCB
 - [ ] ...
